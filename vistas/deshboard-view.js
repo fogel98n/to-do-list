@@ -1,7 +1,9 @@
-import { Header } from "../components/header/header-component.js";
+import { Header,footer } from "../components/index.js"; 
 export function deshboard(){
     let section=document.createElement("section");
     section.appendChild(Header());
+    section.appendChild(footer());
+
     return section;
 }
 
